@@ -1,0 +1,27 @@
+{
+  "name": "tutorial-webpack",
+  "version": "1.0.0",
+  "description": "tutorial webpack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config webpack.development.config.js",
+    "prod": "webpack --config webpack.production.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmahechas/tutorial-webpack.git"
+  },
+  "author": "gmahechas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmahechas/tutorial-webpack/issues"
+  },
+  "homepage": "https://github.com/gmahechas/tutorial-webpack#readme",
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
